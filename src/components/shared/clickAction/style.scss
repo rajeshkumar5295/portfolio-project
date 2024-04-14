@@ -1,0 +1,56 @@
+.click-to-action{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    // background-color: rgb(255, 252, 252);
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(248,99,30,1) 48%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+   //  padding: 0 12px;
+    border-radius: 5px;
+    width: fit-content;
+    &:hover{
+        box-shadow: 2px 2px  5px 0 rgba(248,99,30,1) ;
+     }
+  
+
+
+      .click-text{
+        font-size: 16px;
+       font-weight: 700;
+       line-height: 24px;
+       letter-spacing: 1px;
+       cursor: pointer;
+       color: white;
+       padding: 5px 5px;
+      }
+
+      .icon{
+             display: flex;
+             align-items: center;
+             justify-content: center;
+             transform: rotate(-45deg);
+             
+
+         svg{
+            font-size: 20px;
+            font-weight: 800;
+            color: white;
+
+         }
+      }
+
+      .idstyle{
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         // transform: rotate(-45deg);
+         
+
+     svg{
+        font-size: 30px;
+        font-weight: 800;
+        color: white;
+
+     }
+      }
+}

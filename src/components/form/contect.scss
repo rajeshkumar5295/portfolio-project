@@ -1,0 +1,33 @@
+.contact-info-box{
+    color: white;
+    width: 300px;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+    //  align-items: center;
+     background-color: gray;
+    //  margin: 15px;
+    padding: 15px;
+    gap: 15px;
+
+    border-radius: 15px;
+
+    h4{
+        font-size: 18px;
+        // line-height: 20px;
+    }
+
+    .content-option{
+        //  background-color: red;
+         display: flex;
+         align-items: center;
+         gap: 15px;
+           
+         svg{
+            // color: green;
+            // color: yellow;
+         }
+    }
+    
+
+}

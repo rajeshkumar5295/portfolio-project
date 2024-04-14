@@ -1,0 +1,60 @@
+@import '../../style-config/mixin.scss';
+@import '../../style-config/variable.scss';
+
+
+.skills-content-wrapper{
+        display:flex ;
+        align-items: center;
+        .left-col{
+            width: 40%;
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            img{
+                width: 100%;
+                max-width: 453px;
+                display: block;
+            }
+        }  
+
+        .right-col{
+            // display: flex;
+            // flex-direction: column;
+            
+                width: 60%;
+                color: white;
+                margin-left: 50px;
+
+                h2{
+                    margin-bottom: 30px;
+                    font-size: 25px;
+                    font-weight: 700;
+                }
+                p{
+                
+                    font-size:18px ;
+                    font-weight: 400;
+                    line-height: 24px;
+                    margin-bottom:25px;
+                    
+                }
+
+                .download{
+                    cursor: pointer;
+                    background-color: grey;
+                    width: 20%;
+                    display: flex;
+                    // text-align: center;
+                    align-items: center;
+                    justify-content: center;
+                    border-radius: 15px; 
+                     transition: color 0.3s ease-in-out 0s;
+
+                    &:hover{
+                        color: rgb(53, 3, 3);
+
+                    }
+                }
+            
+        }
+}
