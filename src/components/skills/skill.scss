@@ -3,13 +3,24 @@
 
 
 .skills-content-wrapper{
+      
         display:flex ;
-        align-items: center;
+           flex-direction: column;
+        //    background-color: red;
+        @media only screen and (min-width:768px){
+            flex-direction: row;
+            align-items: center;
+        }
         .left-col{
-            width: 40%;
+            //  background-color: green;
+            width: 100%;
             display: flex;
             align-items: center;
-            justify-content: flex-start;
+              justify-content: center;
+            @media only screen and (min-width:768px){
+               width: 40%;
+               justify-content: flex-start;
+            }
             img{
                 width: 100%;
                 max-width: 453px;
@@ -18,33 +29,44 @@
         }  
 
         .right-col{
-            // display: flex;
-            // flex-direction: column;
-            
-                width: 60%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+                // background-color: rgb(0, 255, 72);
+                width: 100%;
                 color: white;
+            
+                 
+             @media only screen and (min-width:768px) {
+                width: 60%;
                 margin-left: 50px;
-
-                h2{
-                    margin-bottom: 30px;
-                    font-size: 25px;
+             }
+                h2{ 
+                    margin-top: 5px;
+                    margin-bottom: 25px;
+                    font-size: 30px;
                     font-weight: 700;
                 }
                 p{
                 
-                    font-size:18px ;
+                    font-size:24px ;
+                     @media only screen and (min-width:768px){
+                        font: 22px;
+                     }
                     font-weight: 400;
                     line-height: 24px;
                     margin-bottom:25px;
                     
                 }
-
+               .dwn{
+                //    background-color: yellow;
                 .download{
                     cursor: pointer;
                     background-color: grey;
-                    width: 20%;
+                
                     display: flex;
-                    // text-align: center;
+                
+                    padding: 5px 10px;
                     align-items: center;
                     justify-content: center;
                     border-radius: 15px; 
@@ -55,6 +77,14 @@
 
                     }
                 }
+
+               }
             
+        }
+
+        @media only screen and (min-width:768px){
+             h2{
+                font: 25px;
+             }
         }
 }

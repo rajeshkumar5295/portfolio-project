@@ -39,14 +39,12 @@ const Skills = () => {
               <h2>MY Skills</h2>
               <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni, cupiditate incidunt porro deleniti quo aliquam architecto voluptates laboriosam minima fugiat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores adipisci modi assumenda. Quo aut qui vero inventore rem perferendis quaerat.lorem20 Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam non quas ad accusantium fugiat asperiores! Culpa porro doloribus dolorem consequatur?</p>
 
-              {/* <ClickToAction 
-              text="Download CV"  
-              icon={<CiSaveDown1/>}
-              id="skills"
-              />   */}
+             
+             <div className="dwn">
+              <p onClick={handleDownload}  className='download'  >Download CV </p>
 
+             </div>
 
-              <p onClick={handleDownload}       className='download'    >Download CV </p>
 
             </div>
            

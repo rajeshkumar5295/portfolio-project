@@ -26,12 +26,16 @@ const NavigationContent = () => {
                  </h1>
 
                   <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum, fugit! Esse, nemo, enim libero maxime iure consequuntur cumque mollitia magnam nostrum sit at itaque ipsum amet, harum accusantium ab cum!</p>
-                  <ClickToAction text="Get Started"   id="portfolio" icon={<TiArrowRight/>}  />
+                   <div className="action-button"    >
+                   <ClickToAction text="Get Started"   id="portfolio" icon={<TiArrowRight/>}  />
+                   </div>
               </div>
 
               <div className="right-part">
                 
-                  <img src={girl} alt="" />
+                   <div className="girl">
+                   <img src={girl} alt="" />
+                   </div>
               
 
                 <div className=" highlights horizontal">

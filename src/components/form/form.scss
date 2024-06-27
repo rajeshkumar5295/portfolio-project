@@ -1,9 +1,11 @@
 
 .form-container{
-      width: calc(100% - 300px);
-      // background-color: red;
+      width: 90%;
+      // background-color: rgb(0, 255, 42);
       border-radius: 10px;
-      // background-color: gray;
+      @media only screen and (min-width:768px){
+            width: calc(100% - 300px);
+      }
       
       form{ 
             display: flex;
